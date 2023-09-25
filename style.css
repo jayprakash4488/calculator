@@ -1,0 +1,47 @@
+body{
+    background: black;
+}
+#mainbody{
+   margin-left: 40%;
+   margin-top: 2px;
+   background: linear-gradient(#b31620,#288010);
+   width: 230px;
+   height: 350px;
+   border: solid 2px;
+   border-radius: 10px;
+}
+#screen{
+    border-width: 5px;
+    margin-bottom: 18px;
+    width: 85%;
+    height: 41px;
+    margin-top: 13px;
+    border-color: yellow;
+    border-radius: 8px;
+    font-size: xx-large;
+    font-family: sans-serif;
+    pointer-events: none;
+
+}
+.but{
+    width: 200px;
+    height: 300px;
+    margin-left: 1px;
+
+}
+button{
+    width: 30px;
+    height: 35px;
+    margin-top: 10px;
+    background: linear-gradient(#16b3b1,#103880);
+    margin-left: 10px;
+    border: solid steelblue;
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+bitton:hover{
+    cursor:pointer;
+    background: linear-gradient(#20dddd,#1a56c5);
+}
